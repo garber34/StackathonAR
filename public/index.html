@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>StackathonAR</title>
+  <meta name="description" content="StackathonAR">
+
+  <script src="https://aframe.io/releases/1.0.4/aframe.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/ar.js/2.1.1/aframe-ar.js"></script>
+
+  <!-- extra loader to allow animations to play-->
+   <script src="https://cdn.jsdelivr.net/gh/donmccurdy/aframe-extras@v6.1.1/dist/aframe-extras.min.js"></script>
+
+  <!-- Logic to create markers and entities, and handle asset switching -->
+  <script src="../markerHandler.js"></script>
+
+</head>
+
+<body style='margin : 0px; overflow: hidden;'>
+  <a-scene embedded arjs='trackingMethod: best; debugUIEnabled: false' setup>
+    <a-entity camera></a-entity>
+  </a-scene>
+
+</body>
+
+</html>
