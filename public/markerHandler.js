@@ -2,67 +2,67 @@ let currentMarkers = [];
 
 const assets = {
   air: {
-    url: "/Public/Models/tornado/scene.gltf",
+    url: "/Models/tornado/scene.gltf",
     rotation: "15 -70 -35",
     scale: ".015 .04 .015",
     position: "0 0 0",
   },
   airearth: {
-    url: "/Public/Models/catapult_animation/scene.gltf",
+    url: "/Models/catapult_animation/scene.gltf",
     rotation: "90 -20 -15",
     scale: ".25 .25 .25",
     position: "0 0 0",
   },
   airfire: {
-    url: "/Public/Models/starcluster/scene.gltf",
+    url: "/Models/starcluster/scene.gltf",
     rotation: "15 90 0",
     scale: ".0025 .0025 .0025",
     position: "0 3 0",
   },
   airwater: {
-    url: "/Public/Models/cloud/scene.gltf",
+    url: "/Models/cloud/scene.gltf",
     rotation: "60 0 0",
     scale: ".5 .5 .5",
     position: "0 0 0",
   },
   earth: {
-    url: "/Public/Models/fels/scene.gltf",
+    url: "/Models/fels/scene.gltf",
     rotation: "0 90 90",
     scale: ".25 .25 .25",
     position: "0 0 0",
   },
   earthfire: {
-    url: "/Public/Models/volcano/scene.gltf",
+    url: "/Models/volcano/scene.gltf",
     rotation: "90 0 0",
     scale: "-90 180 5",
     position: "0 0 0",
   },
   earthwater: {
-    url: "/Public/Models/tree/scene.gltf",
+    url: "/Models/tree/scene.gltf",
     rotation: "90 0 0",
     scale: ".5 .75 .5",
     position: "0 0 0",
   },
   fire: {
-    url: "/Public/Models/fire_animation/scene.gltf",
+    url: "/Models/fire_animation/scene.gltf",
     rotation: "90 0 0",
     scale: ".5 .3 .5",
     position: "0 0 2",
   },
   firewater: {
-    url: "/Public/Models/train/scene.gltf",
+    url: "/Models/train/scene.gltf",
     rotation: "90 0 0",
     scale: ".02 .05 .05",
     position: "-.75 0 -1",
   },
   water: {
-    url: "/Public/Models/water_animation/scene.gltf",
+    url: "/Models/water_animation/scene.gltf",
     rotation: "90 0 0",
     scale: ".015 .05 .015",
     position: "0 0 0",
   },
   avatar: {
-    url: "/Public/Models/avatar/scene.gltf",
+    url: "/Models/avatar/scene.gltf",
     rotation: "0 -90 -90",
     scale: "1 1 1",
     position: "0 0 0",
@@ -70,10 +70,10 @@ const assets = {
 };
 
 const markers = {
-  fire: "/Public/markers/firetext.patt",
-  earth: "/Public/markers/earthtext.patt",
-  water: "/Public/markers/watertext.patt",
-  air: "/Public/markers/airtext.patt",
+  fire: "/markers/firetext.patt",
+  earth: "/markers/earthtext.patt",
+  water: "/markers/watertext.patt",
+  air: "/markers/airtext.patt",
 };
 
 AFRAME.registerComponent("setup", {

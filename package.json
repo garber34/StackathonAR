@@ -5,7 +5,7 @@
   "license": "MIT",
   "scripts": {
     "start": "node index.js",
-    "start:dev": "budo --live --verbose --port 3000 --open"
+    "start:dev": "budo --dir public --live --verbose --port 3000 --open "
   },
   "devDependencies": {
     "budo": "^7.0.0"
